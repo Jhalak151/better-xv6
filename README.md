@@ -1,9 +1,8 @@
 # ASSIGNMENT 4: Enhancing XV-6
 
----
   
 ## Specification 1: System Calls
----
+
 ### System Call 1: `trace`
 
 #### Added (in struct proc in kernel/proc.h)
@@ -92,7 +91,6 @@
 ------------------------
 
 ## Specification 2: Scheduling
----
   
 
 Added `SCHED_FLAG` in the makefile which tells the kernel which scheduling policy to use. Usage:
@@ -330,7 +328,6 @@ Disabled preemption by not giving up the CPU (`yield()`) on timer interrupts (`d
 
 ## Specification 3: Copy-On-Write Fork()
 
-  ---
 
 #### Added (in kernel/riscv.h)
 
@@ -464,4 +461,4 @@ Running MLFQ on the given  `schedulertest` with some modifications to avoid com
 
   
 
-<img title="MLFQ analysis" src="C:\Users\Jhalak\Desktop\uni\courses_sem3\OS\Assignments\Assignment4\fin\xv6\MLFQ.png">
+<img title="MLFQ analysis" src="MLFQ.png">
