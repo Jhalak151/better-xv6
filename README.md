@@ -1,4 +1,4 @@
-# ASSIGNMENT 4: Enhancing XV-6
+# Enhancing XV-6
 
   
 ## Specification 1: System Calls
